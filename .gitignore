@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python/
+build/
+dist/
+venv/
+env/
+.venv/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.tox/
+htmlcov/
+
+# Editors
+.vscode/ # Visual Studio Code
+.idea/   # PyCharm / IntelliJ IDEA
+
+# OS X files
+.DS_Store
+
+# Thumbnail cache files
+.thumbnails
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Database
+*.sqlite3 # For Django's default SQLite database
+
+# Environment variables
+.env # Common for storing sensitive environment variables
+*.env
+
+# Uploaded Media (Django)
+/media/ # If you have a media root for user-uploaded files
+/static/ # If you are collecting static files here for production (and don't want them tracked)
+
+# Logs
+*.log
